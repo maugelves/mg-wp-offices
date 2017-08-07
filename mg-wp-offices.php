@@ -62,3 +62,41 @@ foreach (glob(MGWPOFF_PATH . "/inc/cpts/*.php") as $filename)
 */
 foreach (glob(MGWPOFF_PATH . "/inc/acfs/*.php") as $filename)
 	include $filename;
+
+
+
+
+
+
+/*
+*   =================================================================================================
+*   HOOKS
+*   =================================================================================================
+*/
+foreach (glob(MGWPOFF_PATH . "/inc/hooks/*.php") as $filename)
+	include $filename;
+
+
+
+
+
+/*
+*   =================================================================================================
+*   ENQUEUE SCRIPTS AND STYLES
+*   =================================================================================================
+*/
+foreach (glob(MGWPOFF_PATH . "/inc/enqueues/*.php") as $filename)
+	include $filename;
+
+
+
+
+
+
+/*
+*   =================================================================================================
+*   SHORTCODES
+*   =================================================================================================
+*/
+foreach (glob(MGWPOFF_PATH . "/inc/shortcodes/*.php") as $filename)
+	include $filename;
