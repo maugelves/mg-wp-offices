@@ -18,29 +18,29 @@ function fn_mgwpoffices() {
 	$query = new WP_Query( $args );
 
 
-if( $query->have_posts() ):
-	$output .= '<div class="acf-map">';
-	while( $query->have_posts() ): $query->the_post();
+	if( $query->have_posts() ):
+		$output .= '<div class="acf-map">';
+		while( $query->have_posts() ): $query->the_post();
 
-		$location = get_field('mgwpoff_address');
+			$location = get_field('mgwpoff_address');
 
-		$output .= sprintf( '<div class="marker" data-lat="%s" data-lng="%s">', $location['lat'], $location['lng'] );
-		$output .= "<h3>" . get_the_title() . "</h3>";
-		$output .= get_the_content();
-		$output .= "<p><b>Dirección</b>: " . $location['address'] . "<br>";
-		if( get_field('mgwpoff_telephone') )
-			$output .= "<b>Teléfono</b>: " . get_field('mgwpoff_telephone') . "</br>";
-		if( get_field('mgwpoff_fax') )
-			$output .= "<b>Fax</b>: " . get_field('mgwpoff_fax') . "</br>";
-		$output .= '</p></div>';
+			$output .= sprintf( '<div class="marker" data-lat="%s" data-lng="%s">', $location['lat'], $location['lng'] );
+			$output .= "<h3>" . get_the_title() . "</h3>";
+			$output .= get_the_content();
+			$output .= "<p><b>Dirección</b>: " . $location['address'] . "<br>";
+			if( get_field('mgwpoff_telephone') )
+				$output .= "<b>Teléfono</b>: " . get_field('mgwpoff_telephone') . "</br>";
+			if( get_field('mgwpoff_fax') )
+				$output .= "<b>Fax</b>: " . get_field('mgwpoff_fax') . "</br>";
+			$output .= '</p></div>';
 
-	endwhile;
-	$output .= '</div>';
-	wp_reset_postdata();
+		endwhile;
+		$output .= '</div>';
+		wp_reset_postdata();
 
-endif;
+	endif;
 
-return $output;
+	return $output;
 
 }
 add_shortcode( 'mgwpoffices', 'fn_mgwpoffices' );

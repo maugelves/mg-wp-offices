@@ -111,7 +111,6 @@ class Offices
 		$role->add_cap('edit_others_offices');
 		$role->add_cap('read_office');
 		$role->add_cap('delete_offices');
-		$role->add_cap('delete_offices');
 		$role->add_cap('publish_offices');
 		$role->add_cap('read_private_offices');
 
