@@ -11,8 +11,9 @@ function fn_mgwpoffices() {
 	$output = "";
 
 	$args = array(
-		'post_type'     => 'office',
-		'post_status'   => 'publish'
+		'post_type'         => 'office',
+		'post_status'       => 'publish',
+		'posts_per_page'    =>  -1
 	);
 
 	$query = new WP_Query( $args );
@@ -60,7 +61,8 @@ function fn_mgwpoffices_list() {
 
 	$args = array(
 		'post_type'     => 'office',
-		'post_status'   => 'publish'
+		'post_status'   => 'publish',
+		'posts_per_page'    =>  -1
 	);
 
 	$query = new WP_Query( $args );
