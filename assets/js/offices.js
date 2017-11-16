@@ -39,7 +39,7 @@ jQuery(document).ready(function( $ ){
 
         // vars
         var args = {
-            zoom		: 2,
+            zoom		: 1,
             center		: new google.maps.LatLng(0, 0),
             mapTypeId	: google.maps.MapTypeId.ROADMAP
         };
