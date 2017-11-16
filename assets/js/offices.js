@@ -39,7 +39,7 @@ jQuery(document).ready(function( $ ){
 
         // vars
         var args = {
-            zoom		: 1,
+            zoom		: 2,
             center		: new google.maps.LatLng(0, 0),
             mapTypeId	: google.maps.MapTypeId.ROADMAP
         };
@@ -63,6 +63,7 @@ jQuery(document).ready(function( $ ){
 
         // center map
         //center_map( map );
+        map.setCenter({lat: 0, lng: 12.8177456});
 
 
         // return
