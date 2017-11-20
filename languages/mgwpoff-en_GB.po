@@ -2,33 +2,354 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MG WP Offices\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-12 10:28+0000\n"
-"PO-Revision-Date: 2017-09-12 10:29+0000\n"
+"POT-Creation-Date: 2017-11-20 19:54+0100\n"
+"PO-Revision-Date: 2017-11-20 19:54+0100\n"
 "Last-Translator: mgelves <mgelves@gmail.com>\n"
 "Language-Team: \n"
 "Language: en_GB\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Loco https://localise.biz/"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
 
-#. Name of the plugin
-msgid "MG WP Offices"
+#: inc/acfs/offices.php:7
+msgid "Offices"
 msgstr ""
 
-#. Description of the plugin
-msgid "WordPress plugin to include offices information on your websites"
+#: inc/acfs/offices.php:11 inc/shortcodes/mgwpoffices.php:33
+msgid "Teléfono"
 msgstr ""
 
-#. URI of the plugin
-msgid "https://github.com/maugelves/mg-wp-offices"
+#: inc/acfs/offices.php:30
+msgid "Fax"
 msgstr ""
 
-#. Author of the plugin
-msgid "Mauricio Gelves"
+#: inc/acfs/offices.php:49 inc/shortcodes/mgwpoffices.php:31
+msgid "Dirección"
 msgstr ""
 
-#. Author URI of the plugin
-msgid "https://maugelves.com"
+#: inc/cpts/offices.php:32
+msgid "Introduzca el nombre"
+msgstr ""
+
+#: inc/cpts/offices.php:48 inc/cpts/offices.php:49 inc/cpts/offices.php:50
+#: inc/cpts/offices.php:79
+msgid "Oficinas"
+msgstr ""
+
+#: inc/cpts/offices.php:51
+msgid "Todas las oficinas"
+msgstr ""
+
+#: inc/cpts/offices.php:52
+msgid "Agregar nueva oficina"
+msgstr ""
+
+#: inc/cpts/offices.php:53
+msgid "Agregar nueva"
+msgstr ""
+
+#: inc/cpts/offices.php:54
+msgid "Nueva oficina"
+msgstr ""
+
+#: inc/cpts/offices.php:55
+msgid "Editar oficina"
+msgstr ""
+
+#: inc/cpts/offices.php:56
+msgid "Actualizar oficina"
+msgstr ""
+
+#: inc/cpts/offices.php:57
+msgid "Ver oficina"
+msgstr ""
+
+#: inc/cpts/offices.php:58
+msgid "Ver oficinas"
+msgstr ""
+
+#: inc/cpts/offices.php:59
+msgid "Buscar oficina"
+msgstr ""
+
+#: inc/cpts/offices.php:60
+msgid "No encontrado"
+msgstr ""
+
+#: inc/cpts/offices.php:132 inc/cpts/offices.php:133
+msgid "Oficina actualizado."
+msgstr ""
+
+#: inc/cpts/offices.php:135
+#, php-format
+msgid "Oficina recuperado de la revisión %s."
+msgstr ""
+
+#: inc/cpts/offices.php:136
+msgid "Oficina publicado."
+msgstr ""
+
+#: inc/cpts/offices.php:137
+msgid "Oficina guardado."
+msgstr ""
+
+#: inc/cpts/offices.php:138
+msgid "Oficina programador"
+msgstr ""
+
+#: inc/cpts/offices.php:139
+msgid "Borrador de ofcina actualizado."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:393
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:394
+#: inc/libs/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr ""
