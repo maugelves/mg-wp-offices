@@ -28,9 +28,9 @@ function fn_mgwpoffices() {
 			$output .= sprintf( '<div class="marker" data-lat="%s" data-lng="%s">', $location['lat'], $location['lng'] );
 			$output .= "<h3>" . get_the_title() . "</h3>";
 			$output .= get_the_content();
-			$output .= "<p><b>Dirección</b>: " . $location['address'] . "<br>";
+			$output .= "<p><b>" . __("Dirección", MGWPOFF_DOMAIN) . " </b>: " . $location['address'] . "<br>";
 			if( get_field('mgwpoff_telephone') )
-				$output .= "<b>Teléfono</b>: " . get_field('mgwpoff_telephone') . "</br>";
+				$output .= "<b>" . __("Teléfono", MGWPOFF_DOMAIN ) .  "</b>: " . get_field('mgwpoff_telephone') . "</br>";
 			if( get_field('mgwpoff_fax') )
 				$output .= "<b>Fax</b>: " . get_field('mgwpoff_fax') . "</br>";
 			$output .= '</p></div>';
