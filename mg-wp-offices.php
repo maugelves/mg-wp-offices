@@ -13,7 +13,7 @@ Domain Path: /languages
 */
 
 // CONSTANTS
-define( 'MGWPOFF_DOMAIN', 'mgwpoff');
+define( 'MGWPOFF_DOMAIN', 'mg-wp-offices');
 define( 'MGWPOFF_FILE', __FILE__ );
 define( 'MGWPOFF_PATH', dirname( __FILE__ ) );
 define( 'MGWPOFF_FOLDER', basename( MGWPOFF_PATH ) );

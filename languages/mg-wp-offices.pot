@@ -1,16 +1,16 @@
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MG WP Offices\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-20 19:54+0100\n"
-"PO-Revision-Date: 2017-11-20 19:54+0100\n"
-"Last-Translator: mgelves <mgelves@gmail.com>\n"
+"POT-Creation-Date: 2017-11-20 20:32+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
-"Language: en_GB\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 2.0.4\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: ..\n"
@@ -152,9 +152,7 @@ msgstr ""
 
 #: inc/libs/class-tgm-plugin-activation.php:399
 #, php-format
-msgid ""
-"Plugin not activated. A higher version of %s is needed for this theme. "
-"Please update the plugin."
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
 msgstr ""
 
 #: inc/libs/class-tgm-plugin-activation.php:401
@@ -167,9 +165,7 @@ msgid "Dismiss this notice"
 msgstr ""
 
 #: inc/libs/class-tgm-plugin-activation.php:403
-msgid ""
-"There are one or more required or recommended plugins to install, update or "
-"activate."
+msgid "There are one or more required or recommended plugins to install, update or activate."
 msgstr ""
 
 #: inc/libs/class-tgm-plugin-activation.php:404
@@ -320,9 +316,7 @@ msgid "The installation of %1$s failed."
 msgstr ""
 
 #: inc/libs/class-tgm-plugin-activation.php:3600
-msgid ""
-"The installation and activation process is starting. This process may take a "
-"while on some hosts, so please be patient."
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
 msgstr ""
 
 #: inc/libs/class-tgm-plugin-activation.php:3602
@@ -340,9 +334,7 @@ msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
 #: inc/libs/class-tgm-plugin-activation.php:3608
-msgid ""
-"The installation process is starting. This process may take a while on some "
-"hosts, so please be patient."
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
 msgstr ""
 
 #: inc/libs/class-tgm-plugin-activation.php:3611

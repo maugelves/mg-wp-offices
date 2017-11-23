@@ -77,9 +77,9 @@ function fn_mgwpoffices_list() {
 			$output .= '<li class="mgwpoff__list__item">';
 			$output .= '<h4 class="mgwpoff__list__h">' . get_the_title() . '</h4>';
 			$output .= "<div class='mgwpoff__list__b'>" . get_the_content() . "</div>";
-			$output .= "<p><b>Dirección</b>: " . $location['address'] . "<br>";
+			$output .= "<p><b>" . __("Dirección", MGWPOFF_DOMAIN ) . "</b>: " . $location['address'] . "<br>";
 			if( get_field('mgwpoff_telephone') )
-				$output .= "<b>Teléfono</b>: " . get_field('mgwpoff_telephone') . "</br>";
+				$output .= "<b>" . __( "Teléfono", MGWPOFF_DOMAIN ) . "</b>: " . get_field('mgwpoff_telephone') . "</br>";
 			if( get_field('mgwpoff_fax') )
 				$output .= "<b>Fax</b>: " . get_field('mgwpoff_fax') . "</br>";
 			$output .= '</p>';
